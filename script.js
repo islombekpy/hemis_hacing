@@ -29,7 +29,7 @@ class AutoQuestionSolver {
         this.showStatus(`AI ${this.totalCount} ta savolni yechmoqda...`);
 
         try {
-            const response = await fetch("https://unco.pythonanywhere.com/ai-solve/", {
+            const response = await fetch("https://incoder.pythonanywhere.com/ai-solve/", {
                 method: "POST",
                 body: JSON.stringify(questionsData),
                 headers: {
