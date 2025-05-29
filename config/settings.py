@@ -73,7 +73,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://student.fbtuit.uz",
+    "https://student.fstu.uz",
 ]
 CORS_ALLOW_ALL_ORIGINS = True  
 CORS_ALLOW_METHODS = [
